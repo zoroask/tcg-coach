@@ -1,0 +1,20 @@
+# generated (rebuild with: python tools/rebuild_all.py)
+knowledge/**/tcg.db
+knowledge/**/tcg.tmp
+__pycache__/
+*.pyc
+# temporary analysis drafts
+tmp*.json
+# personal data, not shared
+decks/
+logs/
+.env
+.env.*
+!.env.example
+# card details: downloaded by install.bat, never pushed
+knowledge/**/cards/cards.json
+knowledge/**/cards/cards.csv
+knowledge/**/cards/by-set/
+# personal prep plans
+plans/*.md
+!plans/README.md
